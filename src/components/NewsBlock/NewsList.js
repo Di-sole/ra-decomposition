@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import shortid from 'shortid';
 
 // отображает список новостей
 
@@ -9,8 +10,8 @@ function NewsList(props) {
 		<ul className="news-list">
 			{
 				news.map((obj) => 
-					<li className="news-list-elem">
-						<img className="news-icon" src={obj.img} alt="news-icon"/>
+					<li className="news-list-elem" key={shortid.generate()}>
+						<img className="news-icon" src={obj.img} alt="icon"/>
 						<p className="news-title"><a href={obj.link}>{obj.title}</a></p>
 					</li>)
 			}

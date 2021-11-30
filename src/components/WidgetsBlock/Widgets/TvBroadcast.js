@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import shortid from 'shortid';
 
 // отображает список программ в эфире
 
@@ -9,7 +10,7 @@ function TvBroadcast(props) {
 		<ul className="broadcast-list">
 			{
 				data.map(obj => 
-					<li className="broadcast-list-elem">
+					<li className="broadcast-list-elem" key={shortid.generate()}>
 						<p className="program-name">{obj.name}</p>
 						<p className="tv-channel">{obj.channel}</p>
 					</li>)

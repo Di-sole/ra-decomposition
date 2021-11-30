@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import shortid from 'shortid';
 
 // отображает информацию на карте
 
@@ -9,7 +10,7 @@ function MapWidget(props) {
 		<ul className="map-list">
 			{
 				data.map(obj => 
-					<li className="map-list-elem">
+					<li className="map-list-elem" key={shortid.generate()}>
 						<p>{obj.name}</p>
 					</li>)
 			}

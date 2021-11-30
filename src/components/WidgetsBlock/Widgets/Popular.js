@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import shortid from 'shortid';
 
 // отображает список популярных тем
 
@@ -9,7 +10,7 @@ function Popular(props) {
 		<ul className="popular-list">
 			{
 				data.map(obj => 
-					<li className="popular-list-elem">
+					<li className="popular-list-elem" key={shortid.generate()}>
 						<p><span className="popular-title">{obj.title}</span> - {obj.text}</p>
 					</li>)
 			}
