@@ -1,5 +1,6 @@
 {
   "name": "decomposition",
+	"homepage": "https://di-sole.github.io/ra-decomposition",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

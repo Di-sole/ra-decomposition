@@ -1,38 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
 .App {
-  text-align: center;
+	margin-top: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.news-block-header {
+	display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navigation-list {
+	display: flex;
+	margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.navigation-list-elem:not(:last-child) {
+	margin-right: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.news-list {
+	margin-bottom: 15px;
+}
+
+.news-list-elem {
+	display: flex;
+}
+
+.currencies-list {
+	display: flex;
+}
+
+.currencies-list-elem {
+	display: flex;
+}
+
+.currencies-list-elem:not(:last-child) {
+	margin-right: 5px;
+}
+
+.search-block {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.main-logo {
+	margin-right: 10px;
+}
+
+.widgets-block {
+	margin-top: 30px;
+}
+
+.widget {
+	margin-bottom: 20px;
+}
+
+.program-list-elem {
+	display: flex;
+}
+
+.broadcast-list-elem {
+	display: flex;
 }
