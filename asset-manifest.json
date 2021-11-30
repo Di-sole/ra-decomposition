@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ra-decomposition/static/css/main.4e94a2b0.chunk.css",
+    "main.js": "/ra-decomposition/static/js/main.0c652f14.chunk.js",
+    "main.js.map": "/ra-decomposition/static/js/main.0c652f14.chunk.js.map",
+    "runtime-main.js": "/ra-decomposition/static/js/runtime-main.e20a8bc6.js",
+    "runtime-main.js.map": "/ra-decomposition/static/js/runtime-main.e20a8bc6.js.map",
+    "static/js/2.35f75f51.chunk.js": "/ra-decomposition/static/js/2.35f75f51.chunk.js",
+    "static/js/2.35f75f51.chunk.js.map": "/ra-decomposition/static/js/2.35f75f51.chunk.js.map",
+    "index.html": "/ra-decomposition/index.html",
+    "static/css/main.4e94a2b0.chunk.css.map": "/ra-decomposition/static/css/main.4e94a2b0.chunk.css.map",
+    "static/js/2.35f75f51.chunk.js.LICENSE.txt": "/ra-decomposition/static/js/2.35f75f51.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e20a8bc6.js",
+    "static/js/2.35f75f51.chunk.js",
+    "static/css/main.4e94a2b0.chunk.css",
+    "static/js/main.0c652f14.chunk.js"
+  ]
+}
